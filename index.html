@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Andrei Calazans</title>
+
+	<link rel="stylesheet"  href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/css.css">
+
+
+</head>
+
+
+<body class="mybody">
+
+		<div class="container">
+
+			<div class="menu">
+
+	       <!-- Menu icon -->
+	       <div class="icon-close">
+	         <img src="http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/close.png">
+	       </div>
+
+	       <!-- Menu -->
+	       <ul>
+	         <li><a href="#">About</a></li>
+	         <li><a href="#">Blog</a></li>
+	         <li><a href="#">Help</a></li>
+	         <li><a href="#">Contact</a></li>
+	       </ul>
+	     </div>
+
+
+			 <div class="icon-menu">
+        <i class="glyphicon glyphicon-menu-hamburger"></i>
+        MENU
+      </div>
+
+	<div>
+		<div class="btn-primary chapterbox text-center">
+      <h1>Chapter</h1>
+
+		</div>
+	</div><!--chapter-->
+
+
+	<div>
+	  <div class="btn-primary boxleft text-center col-sm-6 col-xm-6">
+	    <p>Vocabulary</p>
+	  </div>
+	</div><!first row-->
+
+	<div>
+	  <div class="btn-primary boxright text-center  col-sm-6 col-xm-6">
+	    <p>Flashcards</p>
+	  </div>
+
+	</div><!second row-->
+
+
+  <div>
+    <div class="btn-primary boxleft text-center col-sm-6 col-xm-6">
+      <p>Vocabulary</p>
+    </div>
+  </div><!first row-->
+
+  <div>
+    <div class="btn-primary boxright text-center  col-sm-6 col-xm-6">
+      <p>Flashcards</p>
+    </div>
+
+  </div><!second row-->
+
+
+  <footer>
+    <p>&#169Andrei Calazans</p>
+  </footer>
+
+
+
+		</div> <!--container-->
+
+
+<script src="jquery/jquery.js"></script>
+<script src="js/scripts.js"></script>
+<script>
+	$(document).ready(function(){
+	$('.icon-menu').click(function(){
+		$('.menu').animate({left:'0px'},200);
+
+		$('body').animate({left:'285px'},200);
+	});
+
+	$('.icon-close').click(function(){
+		$('.menu').animate({left:'-285px'},200);
+
+		$('body').animate({left:'0px'},200);
+	})
+
+
+	});
+
+
+</script>
+
+
+
+
+
+ <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+
+
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="http://code.jquery.com/jquery-1.9.0rc1.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
