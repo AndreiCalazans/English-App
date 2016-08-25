@@ -3,7 +3,7 @@ body {
 
   background-color: lightgrey;
   left: 0;
-  
+
   position: relative;
 }
 
@@ -36,7 +36,17 @@ body {
   padding-left: 20px;
   padding-top: 3px;
 }
-
+.chapterbox {
+  border: 1px solid black;
+}
+.chaptericons {
+  text-align: center;
+  width: 30%;
+}
+.chaptericons h2 {
+  font-size: 1rem;
+  overflow: auto;
+}
 .icon-menu {
   color: #fff;
   cursor: pointer;
