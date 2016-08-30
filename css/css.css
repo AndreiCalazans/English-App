@@ -6,7 +6,16 @@ body {
 
   position: relative;
 }
+.imgmenuheader {
 
+  z-index: 1;
+  margin-left: 0;
+}
+.imageclose {
+  position: absolute;
+  z-index: 3;
+  margin-left: 0;
+}
 .menu {
   width: 285px;
   height: 100%;
@@ -16,11 +25,14 @@ body {
 }
 .icon-close {
   cursor: pointer;
-  padding-left: 10px;
-  padding-top: 10px;
+  position: static;
+
+}
+.menulist {
+  position: relative;
+
 }
 .menu ul {
-  border-top: 1px solid black;
   list-style: none;
   margin-left: -40px;
   padding: none;

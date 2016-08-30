@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
@@ -7,7 +6,7 @@
 	<title>Andrei Calazans</title>
 
 	<link rel="stylesheet"  href="css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="css/css.css">
+	<link rel="stylesheet" type="text/css" href="css/csschapters.css">
 
 
 </head>
@@ -21,20 +20,16 @@
 
 	       <!-- Menu icon -->
 	       <div class="icon-close">
-	         <img class="imageclose"src="images/close.png">
-					 <img class="imgmenuheader" src="images/menuheader.png" alt="" height="150px" width="285px">
-
+	         <img src="images/close.png">
 	       </div>
 
 	       <!-- Menu -->
-				 <div class="menulist">
 	       <ul>
-	         <li><a href="index.html">Home</a></li>
+					 <li><a href="index.html">Home</a></li>
 	         <li><a href="#">Dashboard</a></li>
 	         <li><a href="#">Settings</a></li>
 	         <li><a href="#">Help</a></li>
 	       </ul>
-				 </div>
 	     </div>
 
 
@@ -43,49 +38,31 @@
         MENU
       </div>
 
-	<div>
-		<a href="chapters.html">
-		<div class="btn-primary chapterbox text-center">
-      <h1>Chapter</h1>
+
+
+	<div id="the-slider" class="carousel slide" data-interval="false" data-ride="carousel">
+		<ol class="carousel-indicators">
+			<li data-target="#the-slider" data-slide-to="0" class="active"></li>
+			<li data-target="#the-slider" data-slide-to="1"></li>
+			<li data-target="#the-slider" data-slide-to="2"></li>
+		</ol>
+
+
+
+		<div class="carousel-inner">
+			<div class="item active">
+				
+
+			</div>
 
 		</div>
-		</a>
-	</div><!--chapter-->
 
 
-	<div>
-		<a href="vocabulary.html">
-	  <div class="btn-primary boxleft text-center col-sm-6 col-xm-6">
-	    <p>Vocabulary</p>
-	  </div>
-		</a>
-	</div><!first row-->
-
-	<div>
-		<a href="flashcards.html">
-	  <div class="btn-primary boxright text-center  col-sm-6 col-xm-6">
-	    <p>Flashcards</p>
-	  </div>
-		</a>
-	</div><!second row-->
+	</div>
 
 
-  <div>
-		<a href="exercises.html">
-    <div class="btn-primary boxleft text-center col-sm-6 col-xm-6">
-      <p>Exercises</p>
-    </div>
-		</a>
-  </div><!first row-->
 
-  <div>
-		<a href="games.html">
-    <div class="btn-primary boxright text-center  col-sm-6 col-xm-6">
-      <p>Games</p>
-    </div>
-		</a>
 
-  </div><!second row-->
 
 
   <footer>
@@ -107,7 +84,7 @@
 		$('body').animate({left:'285px'},200);
 	});
 
-	$('.imageclose').click(function(){
+	$('.icon-close').click(function(){
 		$('.menu').animate({left:'-285px'},200);
 
 		$('body').animate({left:'0px'},200);
